@@ -1,0 +1,237 @@
+[
+  {
+    "id": "a1",
+    "citationChicago": "Arcos, Rubén, and Cristina M. Arribas. \"Anticipatory Approaches to Disinformation, Warning and Supporting Technologies.\" 2023. https://doi.org/10.4324/9781003190363-34, Accessed October 2, 2025.",
+    "tags": ["chapter", "disinformation", "technology"],
+    "link": "https://doi.org/10.4324/9781003190363-34"
+  },
+  {
+    "id": "a2",
+    "citationChicago": "CERT-EU. \"Russia's War on Ukraine: One Year of Cyber Operations.\" CERT-EU, February 24, 2023. Accessed September 28, 2025. https://cert.europa.eu/static/MEMO/2023/TLP-CLEAR-CERT-EU-1YUA-CyberOps.pdf.",
+    "tags": ["report", "cyber", "Ukraine", "Russia"],
+    "link": "https://cert.europa.eu/static/MEMO/2023/TLP-CLEAR-CERT-EU-1YUA-CyberOps.pdf",
+    "recommended": true,
+    "description": "Clear and concise report by CERT-EU analyzing the cyber operations conducted during the first year of the war between Russia and Ukraine, highlighting actors, tactics, techniques, and procedures used. Full of anecdotes and small case studies."
+  },
+  {
+    "id": "a3",
+    "citationChicago": "Chincharadze, Ketevan, Ketevan Chincharadze, and Ketevan Chincharadze. \"From Georgia to Ukraine: Seventeen Years of Russian Cyber Capabilities at War.\" *Modern*.",
+    "tags": ["article", "cyber", "Russia", "Ukraine"]
+  },
+  {
+    "id": "a4",
+    "citationChicago": "Clapp, Sebastian. \"Emerging Disruptive Technologies in Defence.\" European Parliamentary Research Service, September 2022. https://www.europarl.europa.eu/RegData/etudes/ATAG/2022/733647/EPRS_ATA(2022)733647_EN.pdf.",
+    "tags": ["brief", "defense", "EDTs"],
+    "link": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2022/733647/EPRS_ATA(2022)733647_EN.pdf"
+  },
+  {
+    "id": "a5",
+    "citationChicago": "Council of the European Union. \"Russian Hybrid Threats: EU Agrees First Listings in Response to Destabilising Activities against the EU, Its Member States and Partners.\" Press release, December 16, 2024. https://www.consilium.europa.eu/en/press/press-releases/2024/12/16/russian-hybrid-threats-eu-agrees-first-listings-in-response-to-destabilising-activities-against-the-eu-its-member-states-and-partners/, Accessed October 2, 2025.",
+    "tags": ["press release", "EU", "hybrid threats"],
+    "link": "https://www.consilium.europa.eu/en/press/press-releases/2024/12/16/russian-hybrid-threats-eu-agrees-first-listings-in-response-to-destabilising-activities-against-the-eu-its-member-states-and-partners/"
+  },
+  {
+    "id": "a6",
+    "citationChicago": "Deprez, Fabrice. \"Russia Bets on Unjammable Drones to Gain Ground in Ukraine.\" *Financial Times*, June 24, 2025. https://www.ft.com/content/1c793760-a8ca-4ef5-aaa3-2ef358c7de90.",
+    "tags": ["news", "drones", "Ukraine"],
+    "link": "https://www.ft.com/content/1c793760-a8ca-4ef5-aaa3-2ef358c7de90"
+  },
+  {
+    "id": "a7",
+    "citationChicago": "Digital Forensic Research Lab (DFRLab). \"Doppelgänger: US Election.\" September 18, 2024. https://dfrlab.org/2024/09/18/doppelganger-us-election/, Accessed October 2, 2025.",
+    "tags": ["DFRLab", "FIMI", "elections"],
+    "link": "https://dfrlab.org/2024/09/18/doppelganger-us-election/"
+  },
+  {
+    "id": "a8",
+    "citationChicago": "\"Disruptive.\" *Cambridge Dictionary*. Accessed October 3, 2025. https://dictionary.cambridge.org/dictionary/english/disruptive.",
+    "tags": ["dictionary"],
+    "link": "https://dictionary.cambridge.org/dictionary/english/disruptive"
+  },
+  {
+    "id": "a9",
+    "citationChicago": "European Council on Foreign Relations (ECFR). \"Drones in Ukraine: Four Lessons for the West.\" n.d. https://ecfr.eu/article/drones-in-ukraine-four-lessons-for-the-west/, Accessed October 2, 2025.",
+    "tags": ["ECFR", "drones", "Ukraine"],
+    "link": "https://ecfr.eu/article/drones-in-ukraine-four-lessons-for-the-west/"
+  },
+  {
+    "id": "a10",
+    "citationChicago": "European External Action Service (EEAS). *2nd EEAS Report on Foreign Information Manipulation and Interference Threats: A Framework for Networked Defence.* February 2024. https://www.eeas.europa.eu/eeas/2nd-eeas-report-foreign-information-manipulation-and-interference-threats_en, Accessed October 2, 2025.",
+    "tags": ["EEAS", "FIMI", "report"],
+    "link": "https://www.eeas.europa.eu/eeas/2nd-eeas-report-foreign-information-manipulation-and-interference-threats_en"
+  },
+  {
+    "id": "a11",
+    "citationChicago": "European External Action Service (EEAS). *3rd EEAS Report on Foreign Information Manipulation and Interference Threats: Exposing the Architecture of FIMI Operations.* March 2025. https://www.eeas.europa.eu/, Accessed October 2, 2025.",
+    "tags": ["EEAS", "FIMI", "report"],
+    "link": "https://www.eeas.europa.eu/"
+  },
+  {
+    "id": "a12",
+    "citationChicago": "European External Action Service (EEAS). *Strategic Compass: Second-Year Report.* 2024. https://www.eeas.europa.eu/sites/default/files/documents/2024/StrategicCompass_2ndYear_Report_0.pdf, Accessed October 2, 2025.",
+    "tags": ["EEAS", "strategy", "EU"],
+    "link": "https://www.eeas.europa.eu/sites/default/files/documents/2024/StrategicCompass_2ndYear_Report_0.pdf"
+  },
+  {
+    "id": "a13",
+    "citationChicago": "EUvsDisinfo. \"Doppelgänger Strikes Back: Unveiling FIMI Activities Targeting European Parliament Elections.\" 2024. https://euvsdisinfo.eu/doppelganger-strikes-back-unveiling-fimi-activities-targeting-european-parliament-elections/, Accessed October 2, 2025.",
+    "tags": ["EUvsDisinfo", "FIMI", "elections"],
+    "link": "https://euvsdisinfo.eu/doppelganger-strikes-back-unveiling-fimi-activities-targeting-european-parliament-elections/"
+  },
+  {
+    "id": "a14",
+    "citationChicago": "Franke, Ulrike. \"Drones in Ukraine: Four Lessons for the West.\" ECFR, June 27, 2025. https://ecfr.eu/article/drones-in-ukraine-four-lessons-for-the-west/.",
+    "tags": ["ECFR", "drones", "analysis"],
+    "link": "https://ecfr.eu/article/drones-in-ukraine-four-lessons-for-the-west/"
+  },
+  {
+    "id": "a15",
+    "citationChicago": "Haslett, Bob, Ian Bott, Charles Clover, Ben Hall, and Laura Pitel. \"Military Briefing: Ukraine Races to Intercept Russian Drones.\" *Financial Times*, September 30, 2025. https://www.ft.com/content/a5132868-8f17-4153-b27f-2a69b72ad86f.",
+    "tags": ["news", "drones", "Ukraine"],
+    "link": "https://www.ft.com/content/a5132868-8f17-4153-b27f-2a69b72ad86f"
+  },
+  {
+    "id": "a16",
+    "citationChicago": "Jensen, Benjamin, and Yasir Atalan. \"Drone Saturation: Russia’s Shahed Campaign.\" CSIS, May 13, 2025. https://www.csis.org/analysis/drone-saturation-russias-shahed-campaign.",
+    "tags": ["CSIS", "drones", "Shahed"],
+    "link": "https://www.csis.org/analysis/drone-saturation-russias-shahed-campaign"
+  },
+  {
+    "id": "a17",
+    "citationChicago": "Jensen, Benjamin. \"Fewer Soldiers, More Drones: What Ukraine’s Military Will Look like after the War.\" CSIS, 28AD. https://www.csis.org/analysis/fewer-soldiers-more-drones-what-ukraines-military-will-look-after-war.",
+    "tags": ["CSIS", "drones", "future force"],
+    "link": "https://www.csis.org/analysis/fewer-soldiers-more-drones-what-ukraines-military-will-look-after-war"
+  },
+  {
+    "id": "a18",
+    "citationChicago": "Kunertova, Dominika, and Stephen Herzog. \"Emerging and disruptive technologies transform, but do not lift, the fog of war – evidence from Russia’s war on Ukraine.\" In *Russia’s War Against Ukraine – Complexity of Contemporary Clausewitzian War*, 146–61, 2024. https://cert.europa.eu/publications/threat-intelligence/cb25-09/.",
+    "tags": ["chapter", "EDTs", "Ukraine"],
+    "link": "https://cert.europa.eu/publications/threat-intelligence/cb25-09/"
+  },
+  {
+    "id": "a19",
+    "citationChicago": "Kunertova, Dominika. 2023. \"Drones Have Boots: Learning from Russia’s War in Ukraine.\" *Contemporary Security Policy* 44 (4): 576–91. doi:10.1080/13523260.2023.2262792.",
+    "tags": ["journal", "drones", "Ukraine"],
+    "link": "https://doi.org/10.1080/13523260.2023.2262792"
+  },
+  {
+    "id": "a20",
+    "citationChicago": "Linvill, Darren, Patrick Warren, Steven Sheffield, Leland Fecher, Kylie Gilbert, Jonathon Greco, et al. \"Writers of the Storm: Who’s Behind the Ongoing Production of Pro-Russian False Narratives.\" *Media Forensics Hub Creative Inquiry Reports* 10 (2024). https://open.clemson.edu/mfh_ci_reports/10, Accessed October 2, 2025.",
+    "tags": ["report", "disinformation", "Russia"],
+    "link": "https://open.clemson.edu/mfh_ci_reports/10"
+  },
+  {
+    "id": "a21",
+    "citationChicago": "Santora, Marc, and Lara Jakes. \"A Thousand Snipers in the Sky: The New War in Ukraine.\" *The New York Times*, July 14, 2025. https://www.nytimes.com/interactive/2025/03/03/world/europe/ukraine-russia-war-drones-deaths.html.",
+    "tags": ["NYT", "drones", "Ukraine"],
+    "link": "https://www.nytimes.com/interactive/2025/03/03/world/europe/ukraine-russia-war-drones-deaths.html",
+    "recommended": true,
+    "description": "Interesting coverage of the use of drones in Ukraine, and how they have disrupted the operational sphere of the conflict."
+  },
+  {
+    "id": "a22",
+    "citationChicago": "Matlack, Jon-Wyatt, Sebastian Schwartz, and Oliver Gill. \"Ukraine’s Drone Ecosystem and the Defence of Europe: Lessons Lost.\" London School of Economics (LSE), April 2025. https://www.lse.ac.uk/ideas/Assets/Documents/2025-04-05-DRONES-MatlackSchwartzGill-FINAL-WEB-03.pdf.",
+    "tags": ["LSE", "drones", "policy"],
+    "link": "https://www.lse.ac.uk/ideas/Assets/Documents/2025-04-05-DRONES-MatlackSchwartzGill-FINAL-WEB-03.pdf"
+  },
+  {
+    "id": "a23",
+    "citationChicago": "Microsoft. \"Russian Election Interference Efforts Focus on the Harris–Walz Campaign.\" *Microsoft On the Issues*, September 17, 2024. https://blogs.microsoft.com/on-the-issues/2024/09/17/russian-election-interference-efforts-focus-on-the-harris-walz-campaign/, Accessed October 2, 2025.",
+    "tags": ["Microsoft", "FIMI", "elections"],
+    "link": "https://blogs.microsoft.com/on-the-issues/2024/09/17/russian-election-interference-efforts-focus-on-the-harris-walz-campaign/"
+  },
+  {
+    "id": "a24",
+    "citationChicago": "Microsoft. \"Russia’s US Election Interference: Deepfakes and AI.\" *Microsoft On the Issues*, April 17, 2024. https://blogs.microsoft.com/on-the-issues/2024/04/17/russia-us-election-interference-deepfakes-ai/, Accessed October 2, 2025.",
+    "tags": ["Microsoft", "FIMI", "AI"],
+    "link": "https://blogs.microsoft.com/on-the-issues/2024/04/17/russia-us-election-interference-deepfakes-ai/"
+  },
+  {
+    "id": "a25",
+    "citationChicago": "Miller, Christopher, and Charles Clover. \"Russia’s Drone Swarms Pierce Ukraine’s Defences at Record Rate.\" *Financial Times*, July 21, 2025. https://www.ft.com/content/1a19df67-3453-4a16-abf1-9fda36142f4b.",
+    "tags": ["news", "drones", "Ukraine"],
+    "link": "https://www.ft.com/content/1a19df67-3453-4a16-abf1-9fda36142f4b"
+  },
+  {
+    "id": "a26",
+    "citationChicago": "Mittal, Vikram, and John Goetz. 2025. \"A Quantitative Analysis of the Effects of Drone and Counter-Drone Systems on the Russia-Ukraine Battlefield.\" *Defense & Security Analysis* 41 (3): 490–503. doi:10.1080/14751798.2025.2479973.",
+    "tags": ["journal", "drones", "counter-drone"],
+    "link": "https://doi.org/10.1080/14751798.2025.2479973"
+  },
+  {
+    "id": "a27",
+    "citationChicago": "Naber, Ibrahim. \"Why Ukraine Remains the World’s Most Innovative War Machine.\" *POLITICO*, August 27, 2025. https://www.politico.com/news/magazine/2025/08/27/ukraine-drones-war-russia-00514712.",
+    "tags": ["news", "drones", "Ukraine"],
+    "link": "https://www.politico.com/news/magazine/2025/08/27/ukraine-drones-war-russia-00514712"
+  },
+  {
+    "id": "a28",
+    "citationChicago": "Nardelli, Alberto, and Daryna Krasnolutska. \"China Cut Drone Sales to West but Supplies Them to Russia, Ukraine Says.\" *Bloomberg*, May 29, 2025. https://www.bloomberg.com/news/articles/2025-05-29/china-cut-drone-sales-to-west-but-supplies-them-to-russia-ukraine-says.",
+    "tags": ["Bloomberg", "drones", "China"],
+    "link": "https://www.bloomberg.com/news/articles/2025-05-29/china-cut-drone-sales-to-west-but-supplies-them-to-russia-ukraine-says"
+  },
+  {
+    "id": "a29",
+    "citationChicago": "Nardelli, Alberto. \"Russian Drone Documents Draw Line From China to Ukraine’s Skies.\" *Bloomberg*, July 8, 2025. https://www.bloomberg.com/news/articles/2025-07-08/china-s-suppliers-key-for-russian-drones-in-war-against-ukraine-documents-show.",
+    "tags": ["Bloomberg", "drones", "China"],
+    "link": "https://www.bloomberg.com/news/articles/2025-07-08/china-s-suppliers-key-for-russian-drones-in-war-against-ukraine-documents-show"
+  },
+  {
+    "id": "a30",
+    "citationChicago": "Newsweek. \"How a Fugitive Florida Deputy Sheriff Became a Kremlin Disinformation Impresario.\" 2024. https://www.newsweek.com/how-fugitive-florida-deputy-sheriff-became-kremlin-disinformation-impresario-1911555, Accessed October 2, 2025.",
+    "tags": ["news", "disinformation"],
+    "link": "https://www.newsweek.com/how-fugitive-florida-deputy-sheriff-became-kremlin-disinformation-impresario-1911555"
+  },
+  {
+    "id": "a31",
+    "citationChicago": "Plichta, Marcel. 2025. \"Precise Mass in Action: Assessing Ukraine’s One-Way Attack Drone Campaign.\" *The RUSI Journal* 170 (4): 42–48. doi:10.1080/03071847.2025.2527923.",
+    "tags": ["journal", "drones", "Ukraine"],
+    "link": "https://doi.org/10.1080/03071847.2025.2527923"
+  },
+  {
+    "id": "a32",
+    "citationChicago": "Plichta, Marcel. \"How Drone Attacks Are Changing the Rules and the Costs of the Ukraine War.\" *The Conversation*, September 1, 2025. https://theconversation.com/how-drone-attacks-are-changing-the-rules-and-the-costs-of-the-ukraine-war-237409.",
+    "tags": ["analysis", "drones", "Ukraine"],
+    "link": "https://theconversation.com/how-drone-attacks-are-changing-the-rules-and-the-costs-of-the-ukraine-war-237409"
+  },
+  {
+    "id": "a33",
+    "citationChicago": "Recorded Future. \"Russia-Linked CopyCop Uses LLMs to Weaponize Influence Content at Scale.\" n.d. https://www.recordedfuture.com/research/russia-linked-copycop-uses-llms-to-weaponize-influence-content-at-scale, Accessed October 2, 2025.",
+    "tags": ["Recorded Future", "LLMs", "FIMI"],
+    "link": "https://www.recordedfuture.com/research/russia-linked-copycop-uses-llms-to-weaponize-influence-content-at-scale"
+  },
+  {
+    "id": "a34",
+    "citationChicago": "Reset. \"Reset Tech Investigation: Doppelgänger.\" 2024. https://www.reset.tech/resources/reset-tech-investigation-doppelganger/, Accessed October 2, 2025.",
+    "tags": ["Reset", "FIMI", "investigation"],
+    "link": "https://www.reset.tech/resources/reset-tech-investigation-doppelganger/"
+  },
+  {
+    "id": "a35",
+    "citationChicago": "Russell, Alec. \"The Ukrainian Drone Pioneer Racing Russia’s Military Machine.\" *Financial Times*, May 11, 2025. https://www.ft.com/content/37ba3336-8df1-4a4c-b1c6-bd29309f8185.",
+    "tags": ["news", "profile", "drones"],
+    "link": "https://www.ft.com/content/37ba3336-8df1-4a4c-b1c6-bd29309f8185"
+  },
+  {
+    "id": "a36",
+    "citationChicago": "Sherman, Justin. *Confronting Russia’s Cyber Power: Reassessing Assumptions Sizing Up the Threat, and Building a Proactive Response*, 2025.",
+    "tags": ["book/report", "cyber", "Russia"]
+  },
+  {
+    "id": "a37",
+    "citationChicago": "Slusher, Matthew. \"Lessons from the Ukraine Conflict: Modern Warfare in the Age of Autonomy, Information, and Resilience.\" CSIS, 2AD. https://www.csis.org/analysis/lessons-ukraine-conflict-modern-warfare-age-autonomy-information-and-resilience.",
+    "tags": ["CSIS", "autonomy", "Ukraine"],
+    "link": "https://www.csis.org/analysis/lessons-ukraine-conflict-modern-warfare-age-autonomy-information-and-resilience"
+  },
+  {
+    "id": "a38",
+    "citationChicago": "Tkachuk, Nataliya. \"Ukraine as the Frontline of European Cyber Defence: Building Resilience in the Face of Russian Cyber Aggression.\" Edited by NATO Cooperative Cyber Defence Centre of Excellence. *Tallinn Papers*, no. 15 (2025).",
+    "tags": ["Tallinn Papers", "cyber", "Ukraine"]
+  },
+  {
+    "id": "a39",
+    "citationChicago": "\"The Russia-Ukraine Drone War: Innovation on the Frontlines and Beyond.\" CSIS, May 28, 2025. https://www.csis.org/analysis/russia-ukraine-drone-war-innovation-frontlines-and-beyond.",
+    "tags": ["CSIS", "drones", "Ukraine"],
+    "link": "https://www.csis.org/analysis/russia-ukraine-drone-war-innovation-frontlines-and-beyond"
+  }
+]
