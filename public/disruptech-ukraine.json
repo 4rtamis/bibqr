@@ -64,7 +64,9 @@
     "id": "a11",
     "citationChicago": "European External Action Service (EEAS). *3rd EEAS Report on Foreign Information Manipulation and Interference Threats: Exposing the Architecture of FIMI Operations.* March 2025. https://www.eeas.europa.eu/, Accessed October 2, 2025.",
     "tags": ["EEAS", "FIMI", "report"],
-    "link": "https://www.eeas.europa.eu/"
+    "link": "https://www.eeas.europa.eu/sites/default/files/documents/2025/EEAS-3nd-ThreatReport-March-2025-05-Digital-HD.pdf",
+    "recommended": true,
+    "description": "The third report by the EEAS on Foreign Information Manipulation and Interference (FIMI) threats."
   },
   {
     "id": "a12",
