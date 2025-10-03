@@ -12,29 +12,46 @@ import { SourceCard } from "@/components/SourceCard";
 import type { Source } from "@/types";
 import { QRCodeCanvas } from "qrcode.react";
 import ThemeToggle from "@/components/ThemeToggle";
+import { useParams } from "react-router-dom";
+import { resolveBibliography } from "@/data/bibliographies";
 
-function useSources() {
+// fetch via a vetted filename only
+function useSources(file: string | null) {
   const [data, setData] = useState<Source[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!file) {
+      setData(null);
+      setError("Unknown bibliography");
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
+    setError(null);
     const base = (import.meta as any).env.BASE_URL || "/";
-    fetch(`${base}sources.json`, { cache: "no-store" })
+    fetch(`${base}${file}`, { cache: "no-store" })
       .then((r) => {
-        if (!r.ok) throw new Error(`Failed to load sources.json (${r.status})`);
+        if (!r.ok) throw new Error(`Failed to load ${file} (${r.status})`);
         return r.json();
       })
       .then((json: Source[]) => setData(json))
       .catch((e) => setError(e.message))
       .finally(() => setLoading(false));
-  }, []);
+  }, [file]);
 
   return { data, error, loading };
 }
 
 export default function App() {
-  const { data, error, loading } = useSources();
+  const { slug } = useParams();
+  const cfg = resolveBibliography(slug);
+  const { data, error, loading } = useSources(cfg?.file ?? null);
+
+  const pageUrl = typeof window !== "undefined" ? window.location.href : "";
+  const title = cfg?.title ?? "Unknown bibliography";
+
   const [copied, setCopied] = useState(false);
 
   const { recommended, others } = useMemo(() => {
@@ -43,8 +60,6 @@ export default function App() {
     const rest = list.filter((s) => !s.recommended);
     return { recommended: rec, others: rest };
   }, [data]);
-
-  const pageUrl = typeof window !== "undefined" ? window.location.href : "";
 
   async function copyLink() {
     try {
@@ -94,44 +109,56 @@ export default function App() {
       {/* Content */}
       <main className="mx-auto max-w-2xl px-4 py-4 sm:py-6">
         <h1 className="text-2xl font-bold leading-tight sm:text-3xl mb-8">
-          The Role of Disruptive Technologies in the War in Ukraine
+          {title}
         </h1>
-        {/* Recommended */}
-        <section>
-          <h2 className="text-sm font-semibold tracking-wide text-muted-foreground">
-            Recommended sources
-          </h2>
-          <div className="mt-3 grid grid-cols-1 gap-3">
-            {loading && (
-              <div className="text-sm text-muted-foreground">
-                Loading sources…
-              </div>
-            )}
-            {error && <div className="text-sm text-destructive">{error}</div>}
-            {!loading && !error && recommended.length === 0 && (
-              <div className="text-sm text-muted-foreground">
-                No recommended sources yet.
-              </div>
-            )}
-            {recommended.map((s) => (
-              <SourceCard key={s.id} source={s} />
-            ))}
-          </div>
-        </section>
 
-        <Separator className="my-6" />
-
-        {/* All others */}
-        <section>
-          <h2 className="text-sm font-semibold tracking-wide text-muted-foreground">
-            All sources
-          </h2>
-          <div className="mt-3 grid grid-cols-1 gap-3">
-            {others.map((s) => (
-              <SourceCard key={s.id} source={s} />
-            ))}
+        {cfg === null ? (
+          <div className="text-sm text-destructive">
+            This bibliography does not exist. Check the link or choose another
+            slug.
           </div>
-        </section>
+        ) : (
+          <>
+            {/* Recommended */}
+            <section>
+              <h2 className="text-sm font-semibold tracking-wide text-muted-foreground">
+                Recommended sources
+              </h2>
+              <div className="mt-3 grid grid-cols-1 gap-3">
+                {loading && (
+                  <div className="text-sm text-muted-foreground">
+                    Loading sources…
+                  </div>
+                )}
+                {error && (
+                  <div className="text-sm text-destructive">{error}</div>
+                )}
+                {!loading && !error && recommended.length === 0 && (
+                  <div className="text-sm text-muted-foreground">
+                    No recommended sources yet.
+                  </div>
+                )}
+                {recommended.map((s) => (
+                  <SourceCard key={s.id} source={s} />
+                ))}
+              </div>
+            </section>
+
+            <Separator className="my-6" />
+
+            {/* All others */}
+            <section>
+              <h2 className="text-sm font-semibold tracking-wide text-muted-foreground">
+                All sources
+              </h2>
+              <div className="mt-3 grid grid-cols-1 gap-3">
+                {others.map((s) => (
+                  <SourceCard key={s.id} source={s} />
+                ))}
+              </div>
+            </section>
+          </>
+        )}
       </main>
 
       {/* Footer */}
