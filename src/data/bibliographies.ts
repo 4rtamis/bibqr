@@ -10,6 +10,10 @@ export type BibliographyConfig = {
  * The empty key "" is used for the root path "/".
  */
 export const BIBLIOGRAPHIES: Record<string, BibliographyConfig> = {
+  "": {
+    title: "The Role of Disruptive Technologies in the War in Ukraine",
+    file: "disruptech-ukraine.json",
+  },
   "disruptech-ukraine": {
     title: "The Role of Disruptive Technologies in the War in Ukraine",
     file: "disruptech-ukraine.json",
